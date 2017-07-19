@@ -4,7 +4,7 @@
 cd ~/.config
 git clone https://github.com/akagik/tmux.git tmux
 ```
-.zshrc に以下の文を追記する.
+~/.tmux.conf を以下のように編集する.
 ```bash
-alias tmux='tmux -f ~/.config/tmux/tmux.conf'
+source-file ~/.config/tmux/tmux.conf
 ```
